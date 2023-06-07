@@ -43,8 +43,14 @@ s.connect(('localhost',8000))
 while True:
  print(s.recv(1024).decode())
  s.send("Acknowledgement Recived".encode())
+ 
+ 
  ```
+ 
+ 
 OUTPUT :
+
+
 ![1](https://github.com/Ishu-Vasanth/EX-2/assets/94154614/8034a4fc-e4b7-4900-a552-b7c9451a3acf)
 
 
